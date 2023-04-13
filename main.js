@@ -5,7 +5,7 @@ const atividades = [];
 const notas = [];
 const spamAprovado = '<span class="resultado aprovado">Aprovado!</span>'
 const spamReprovado = '<span class="resultado reprovado">Reprovado!</span>'
-const notaMinima = parseFloat(prompt("Digite a nota mínima: "));
+const notaMinima = parseFloat(prompt("Digite a média minima necessária para aprovação: "));
 
 let linhas = '';
 
